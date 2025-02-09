@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/yc_directory.iml" filepath="$PROJECT_DIR$/.idea/yc_directory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/neosa.iml" filepath="$PROJECT_DIR$/.idea/neosa.iml" />
     </modules>
   </component>
 </project>

@@ -1,20 +1,20 @@
 import React from 'react';
 import { SearchForm } from '@/components/SearchForm/search-form';
-import { StartupCard } from '@/components/StartupCard';
+import { StartupCard } from '@/components/startup-card';
 
 export default async function Home({ searchParams }: {
   searchParams: Promise<{ query?: string }>
 }) {
   const query = (await searchParams).query;
   const posts = [{
-    _createdAt: 'Yesterday',
+    _createdAt: new Date(),
     views: 44,
-    author: { _id: 1 },
+    author: { _id: 1, name: 'Andrian' },
     _id: 1,
     description: 'Description',
     imageSrc: 'https://www.freeimages.com/photo/peacock-1169961',
-    category: 'some category',
-    title: 'some title',
+    category: 'Robots',
+    title: 'We Robots',
   }];
 
   return (
@@ -34,7 +34,7 @@ export default async function Home({ searchParams }: {
         <ul className="mt-7 card_grid">
           {Boolean(posts.length) &&
             posts.map(post => (
-              <StartupCard key={post._id} />
+              <StartupCard key={post._id} post={post} />
             ))
           }
         </ul>

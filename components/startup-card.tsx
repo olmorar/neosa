@@ -5,13 +5,14 @@ import { EyeIcon } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
+import type { Post } from '@/app/(root)/page';
 
-export const StartupCard = ({ post }: { post: any }) => {
+export const StartupCard = ({ post }: { post: Post }) => {
   return (
     <li className="startup-card group">
       <div className="flex-between">
         <p className="startup_card_date">
-          {formatDate(post._createdAt)}
+          {formatDate(post._createdAt.toDateString())}
         </p>
         <div className="flex gap-1 5">
           <EyeIcon className="size-6 text-primary " />

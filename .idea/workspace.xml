@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef2b5c40-a3fa-46f1-be7a-f9c422a0ca08" name="Changes" comment="refactor: change paths aliases" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;olmorar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/olmorar/neosa.git&quot;,
+    &quot;accountId&quot;: &quot;d2df7f41-9ec9-4a40-ba74-bc246e513197&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2soGMh5osh1p5bxWd2kLPzx34ZL" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.eslint.config.mjs.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;ToolWindow.Terminal.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/a/VSCodeProjects/neosa&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/a/VSCodeProjects/neosa/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="eslint.config.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/eslint.config.mjs" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.eslint.config.mjs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef2b5c40-a3fa-46f1-be7a-f9c422a0ca08" name="Changes" comment="" />
+      <created>1739114467503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739114467503</updated>
+      <workItem from="1739114468796" duration="154000" />
+      <workItem from="1739114636458" duration="22000" />
+      <workItem from="1739114670762" duration="59000" />
+      <workItem from="1739114745110" duration="134000" />
+      <workItem from="1739114890727" duration="246000" />
+      <workItem from="1739115145586" duration="132000" />
+      <workItem from="1739115530886" duration="783000" />
+      <workItem from="1739117204362" duration="909000" />
+      <workItem from="1739118125933" duration="51000" />
+      <workItem from="1739118190123" duration="19000" />
+      <workItem from="1739135877420" duration="95000" />
+      <workItem from="1739135983143" duration="47000" />
+      <workItem from="1739136041952" duration="610000" />
+      <workItem from="1739136653958" duration="207000" />
+      <workItem from="1739136872460" duration="1110000" />
+      <workItem from="1739137998119" duration="1558000" />
+      <workItem from="1739139582294" duration="2184000" />
+      <workItem from="1739141775561" duration="1831000" />
+      <workItem from="1739143619515" duration="83000" />
+      <workItem from="1739143715668" duration="249000" />
+      <workItem from="1739143976487" duration="4473000" />
+      <workItem from="1739148464806" duration="308000" />
+      <workItem from="1739148803739" duration="474000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add search UI to hero section&#10;&#10;- Implement SearchForm component with input and search button&#10;- Add SearchFormReset component for clearing search&#10;- Integrate search functionality in home page&#10;- Update hero section layout to include search form&#10;- Handle search query parameters">
+      <option name="closed" value="true" />
+      <created>1739144330902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739144330902</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactor: change paths aliases">
+      <option name="closed" value="true" />
+      <created>1739149269259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739149269259</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Add search UI to hero section&#10;&#10;- Implement SearchForm component with input and search button&#10;- Add SearchFormReset component for clearing search&#10;- Integrate search functionality in home page&#10;- Update hero section layout to include search form&#10;- Handle search query parameters" />
+    <MESSAGE value="refactor: change paths aliases" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: change paths aliases" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>

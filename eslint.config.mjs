@@ -1,4 +1,5 @@
 import pluginJs from '@eslint/js';
+import pluginNext from 'eslint-plugin-next';
 import pluginReact from 'eslint-plugin-react';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
@@ -11,4 +12,5 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
+  pluginNext.configs.recommended, // Add Next.js plugin configuration
 ];

@@ -1,54 +1,58 @@
 import React from 'react';
 
+import { StartupCardType } from '@/app/(root)/page';
+import { Button } from '@/components/ui/button';
 import { formatDate } from '@/lib/utils';
 import { EyeIcon } from 'lucide-react';
-import Link from 'next/link';
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
-import type { Post } from '@/app/(root)/page';
+import Link from 'next/link';
 
-export const StartupCard = ({ post }: { post: Post }) => {
+export const StartupCard = ({ post }: { post: StartupCardType; }) => {
+  const { _createdAt, _id, image, description, title, views,
+    author, category = ''
+  } = post;
+
   return (
     <li className="startup-card group">
       <div className="flex-between">
         <p className="startup_card_date">
-          {formatDate(post._createdAt.toDateString())}
+          {formatDate(_createdAt)}
         </p>
         <div className="flex gap-1 5">
           <EyeIcon className="size-6 text-primary " />
-          <span className="text-16-medium">{post.views}</span>
+          <span className="text-16-medium">{views}</span>
         </div>
       </div>
 
       <div className="flex-between mt-5 gap-5">
         <div className="flex-1">
-          <Link href={`/user/${post.author._id}`}>
-            <p className="text-16-medium line-clamp-1">{post.author.name}</p>
+          <Link href={`/user/${author?._id}`}>
+            <p className="text-16-medium line-clamp-1">{author?.name}</p>
           </Link>
-          <Link href={`/startup/${post.author._id}`}>
-            <h3 className="text-26-semibold line-clamp-1">{post.title}</h3>
+          <Link href={`/startup/${author?._id}`}>
+            <h3 className="text-26-semibold line-clamp-1">{title}</h3>
           </Link>
         </div>
 
-        <Link href={`/user/${post.author._id}`}>
+        <Link href={`/user/${author?._id}`}>
           <Image className="rounded-full" src="https://placehold.co/48x48" alt="placeholder"
-                 width="48" height="48" />
+            width="48" height="48" />
         </Link>
       </div>
 
-      <Link href={`/startup/${post._id}`}>
+      <Link href={`/startup/${_id}`}>
         <p className="startup-card-desc">
-          {post.description}
+          {description}
         </p>
-        <img className="startup-card_img" src={post.imageSrc} alt="placeholder" />
+        <img className="startup-card_img" src={image} alt="placeholder" />
       </Link>
 
       <div className="flex-between gap-3 mt-5">
-        <Link href={`/?query=${post.category.toLowerCase()}`}>
-          <p className="text-16-medium">{post.category}</p>
+        <Link href={`/?query=${category.toLowerCase()}`}>
+          <p className="text-16-medium">{category}</p>
         </Link>
         <Button className="startup-card_btn" asChild>
-          <Link href={`/startup/${post._id}`}>
+          <Link href={`/startup/${_id}`}>
             Details
           </Link>
         </Button>

@@ -1,25 +1,18 @@
-import React from 'react';
 import { SearchForm } from '@/components/SearchForm/search-form';
 import { StartupCard } from '@/components/startup-card';
+import { client } from '@/sanity/lib/client';
+import { STARTUP_QUERIES } from '@/sanity/lib/queries';
+import { Author, Startup } from '@/sanity/types';
+import React from 'react';
 
-const posts = [{
-  _createdAt: new Date(),
-  views: 44,
-  author: { _id: 1, name: 'Andrian' },
-  _id: 1,
-  description: 'Description',
-  imageSrc: 'https://www.freeimages.com/photo/peacock-1169961',
-  category: 'Robots',
-  title: 'We Robots',
-}];
+export type StartupCardType = Omit<Startup, "author"> & { author?: Author; };
 
-export type Post = typeof posts[0];
-
-export default async function Home({ searchParams }: {
-  searchParams: Promise<{ query?: string }>
-}) {
+export default async function Home({ searchParams }: Readonly<{
+  searchParams: Promise<{ query?: string; }>;
+}>) {
   const query = (await searchParams).query;
 
+  const posts: StartupCardType[] = await client.fetch(STARTUP_QUERIES);
 
   return (
     <>

@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2b5c40-a3fa-46f1-be7a-f9c422a0ca08" name="Changes" comment="feat: Implement search functionality and startup card display&#10;&#10;- Add SearchForm component with query prop&#10;- Create StartupCard component for displaying startup information&#10;- Implement conditional rendering for search results or all startups&#10;- Add mock data for startup posts">
+    <list default="true" id="d4456337-24f8-42b9-a300-b444cc63e397" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/view.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/startup-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/startup-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/env.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/env.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/lib/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/client.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/lib/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/queries.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,68 +32,56 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;olmorar&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "olmorar"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/olmorar/neosa.git&quot;,
-    &quot;accountId&quot;: &quot;d2df7f41-9ec9-4a40-ba74-bc246e513197&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/olmorar/neosa.git",
+    "accountId": "9773a396-2f63-4758-a261-1a76e1ad7bef"
   }
-}</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
+}]]></component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2soGMh5osh1p5bxWd2kLPzx34ZL" />
+  <component name="ProjectId" id="2t3yLRWeGePSpczhxNwrXV5ISWY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
-    <option name="showScratchesAndConsoles" value="false" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Node.js.eslint.config.mjs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "ToolWindow.Terminal.ShowToolbar": "false",
     "code.cleanup.on.save": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/a/VSCodeProjects/neosa",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "/home/linuxlite/.nvm/versions/node/v22.14.0/bin/pnpm",
     "rearrange.code.on.save": "true",
-    "service.view.auto.scroll.to.source": "true",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "ts.external.directory.path": "/home/a/VSCodeProjects/neosa/node_modules/typescript/lib",
+    "settings.editor.selected.configurable": "com.github.blarc.ai.commits.intellij.plugin.settings.AppSettingsConfigurable",
+    "ts.external.directory.path": "/home/linuxlite/Programming/neosa/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/components" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="eslint.config.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/eslint.config.mjs" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.eslint.config.mjs" />
-      </list>
-    </recent_temporary>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="?" />
+    </option>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -93,70 +93,22 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ef2b5c40-a3fa-46f1-be7a-f9c422a0ca08" name="Changes" comment="" />
-      <created>1739114467503</created>
+      <changelist id="d4456337-24f8-42b9-a300-b444cc63e397" name="Changes" comment="" />
+      <created>1739594999267</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1739114467503</updated>
-      <workItem from="1739114468796" duration="154000" />
-      <workItem from="1739114636458" duration="22000" />
-      <workItem from="1739114670762" duration="59000" />
-      <workItem from="1739114745110" duration="134000" />
-      <workItem from="1739114890727" duration="246000" />
-      <workItem from="1739115145586" duration="132000" />
-      <workItem from="1739115530886" duration="783000" />
-      <workItem from="1739117204362" duration="909000" />
-      <workItem from="1739118125933" duration="51000" />
-      <workItem from="1739118190123" duration="19000" />
-      <workItem from="1739135877420" duration="95000" />
-      <workItem from="1739135983143" duration="47000" />
-      <workItem from="1739136041952" duration="610000" />
-      <workItem from="1739136653958" duration="207000" />
-      <workItem from="1739136872460" duration="1110000" />
-      <workItem from="1739137998119" duration="1558000" />
-      <workItem from="1739139582294" duration="2184000" />
-      <workItem from="1739141775561" duration="1831000" />
-      <workItem from="1739143619515" duration="83000" />
-      <workItem from="1739143715668" duration="249000" />
-      <workItem from="1739143976487" duration="4473000" />
-      <workItem from="1739148464806" duration="308000" />
-      <workItem from="1739148803739" duration="474000" />
-      <workItem from="1739151295895" duration="374000" />
-      <workItem from="1739224152555" duration="6456000" />
+      <updated>1739594999267</updated>
+      <workItem from="1739595000783" duration="2781000" />
+      <workItem from="1739597796251" duration="15000" />
+      <workItem from="1739597825443" duration="289000" />
+      <workItem from="1739598134087" duration="654000" />
+      <workItem from="1739598801123" duration="750000" />
+      <workItem from="1739599563947" duration="87000" />
+      <workItem from="1739599660714" duration="2454000" />
+      <workItem from="1739603515824" duration="8190000" />
+      <workItem from="1739614358282" duration="126000" />
+      <workItem from="1739614496654" duration="1366000" />
     </task>
-    <task id="LOCAL-00001" summary="Add search UI to hero section&#10;&#10;- Implement SearchForm component with input and search button&#10;- Add SearchFormReset component for clearing search&#10;- Integrate search functionality in home page&#10;- Update hero section layout to include search form&#10;- Handle search query parameters">
-      <option name="closed" value="true" />
-      <created>1739144330902</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1739144330902</updated>
-    </task>
-    <task id="LOCAL-00002" summary="refactor: change paths aliases">
-      <option name="closed" value="true" />
-      <created>1739149269259</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1739149269259</updated>
-    </task>
-    <task id="LOCAL-00003" summary="feat: Implement search functionality and startup card display&#10;&#10;- Add SearchForm component with query prop&#10;- Create StartupCard component for displaying startup information&#10;- Implement conditional rendering for search results or all startups&#10;- Add mock data for startup posts">
-      <option name="closed" value="true" />
-      <created>1739151513525</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1739151513525</updated>
-    </task>
-    <task id="LOCAL-00004" summary="feat: Implement search functionality and startup card display&#10;&#10;- Add SearchForm component with query prop&#10;- Create StartupCard component for displaying startup information&#10;- Implement conditional rendering for search results or all startups&#10;- Add mock data for startup posts">
-      <option name="closed" value="true" />
-      <created>1739230144370</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1739230144370</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,24 +119,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="false" />
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="feat: Implement search functionality and startup card display&#10;&#10;- Add SearchForm component with query prop&#10;- Create StartupCard component for displaying startup information&#10;- Implement conditional rendering for search results or all startups&#10;- Add mock data for startup posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Implement search functionality and startup card display&#10;&#10;- Add SearchForm component with query prop&#10;- Create StartupCard component for displaying startup information&#10;- Implement conditional rendering for search results or all startups&#10;- Add mock data for startup posts" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

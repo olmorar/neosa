@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { StartupCardType } from '@/app/(root)/page';
+import type { StartupCardType } from '@/app/(root)/page';
 import { Button } from '@/components/ui/button';
 import { formatDate } from '@/lib/utils';
 import { EyeIcon } from 'lucide-react';

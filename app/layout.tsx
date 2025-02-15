@@ -55,24 +55,23 @@ const workSans = localFont({
   variable: '--font-work-sans',
 });
 
-
 export const metadata: Metadata = {
   title: 'YC Directory',
   description: 'Pitch, Vote and Grow with YC Directory',
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
+                                     children,
+                                   }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${workSans.variable} antialiased`}
-      >
-        {children}
-      </body>
+    <body
+      className={`${workSans.variable} antialiased`}
+    >
+    {children}
+    </body>
     </html>
   );
 }

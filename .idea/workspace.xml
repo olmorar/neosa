@@ -4,25 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4456337-24f8-42b9-a300-b444cc63e397" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.fleet/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="4ac105e9-acd6-462d-8c75-fc0f45963360" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.fleet/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/view.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/lib/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/queries.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/studio/[[...tool]]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/studio/[[...tool]]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SearchForm/search-form-reset.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SearchForm/search-form-reset.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/skeleton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/skeleton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FormatOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,142 +30,59 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/olmorar/neosa.git&quot;,
-    &quot;accountId&quot;: &quot;9773a396-2f63-4758-a261-1a76e1ad7bef&quot;
+    &quot;url&quot;: &quot;https://github.com/olmorar/neosa&quot;,
+    &quot;accountId&quot;: &quot;85c56096-885c-4e19-a74c-8cbf5661a6bb&quot;
   }
 }</component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/.desktop" root0="SKIP_INSPECTION" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 8
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2t3yLRWeGePSpczhxNwrXV5ISWY" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2tODbEVf0fvpLIjAhBy7AwtlScj" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="sortByType" value="true" />
-    <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.14.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.13.4&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;/home/linuxlite/.nvm/versions/node/v22.14.0/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;/usr/local/bin/pnpm&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.blarc.ai.commits.intellij.plugin.settings.AppSettingsConfigurable&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.20129108&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/linuxlite/WebstormProjects/neosa/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/Projects/neosa",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "ts.external.directory.path": "C:\\Users\\user\\Desktop\\Projects\\neosa\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="?" />
-    </option>
-  </component>
-  <component name="RunManager" selected="npm.Next.js: server-side">
-    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
-      <method v="2" />
-    </configuration>
-    <configuration name="Next.js: server-side" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a163169533b-JavaScript-WS-251.21418.42" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-WS-243.24978.60" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d4456337-24f8-42b9-a300-b444cc63e397" name="Changes" comment="" />
-      <created>1739594999267</created>
+      <changelist id="4ac105e9-acd6-462d-8c75-fc0f45963360" name="Changes" comment="" />
+      <created>1740214297336</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1739594999267</updated>
-      <workItem from="1739595000783" duration="2781000" />
-      <workItem from="1739597796251" duration="15000" />
-      <workItem from="1739597825443" duration="289000" />
-      <workItem from="1739598134087" duration="654000" />
-      <workItem from="1739598801123" duration="750000" />
-      <workItem from="1739599563947" duration="87000" />
-      <workItem from="1739599660714" duration="2454000" />
-      <workItem from="1739603515824" duration="8190000" />
-      <workItem from="1739614358282" duration="126000" />
-      <workItem from="1739614496654" duration="1366000" />
-      <workItem from="1739686963023" duration="12000" />
-      <workItem from="1739686977355" duration="3170000" />
-      <workItem from="1739690765758" duration="43000" />
-      <workItem from="1739691306007" duration="87000" />
-      <workItem from="1739691405518" duration="385000" />
-      <workItem from="1739691810649" duration="15000" />
-      <workItem from="1739691931668" duration="173000" />
-      <workItem from="1739692117709" duration="69000" />
-      <workItem from="1739692199428" duration="818000" />
-      <workItem from="1739697082963" duration="79000" />
-      <workItem from="1739697177683" duration="315000" />
-      <workItem from="1739790453310" duration="7000" />
-      <workItem from="1739793256403" duration="125000" />
-      <workItem from="1739793393021" duration="681000" />
-      <workItem from="1739794099303" duration="148000" />
-      <workItem from="1739794259846" duration="178000" />
-      <workItem from="1739794469486" duration="666000" />
-      <workItem from="1739795287223" duration="44000" />
-      <workItem from="1739816115548" duration="49000" />
-      <workItem from="1739819490726" duration="84000" />
-      <workItem from="1739819591474" duration="326000" />
-      <workItem from="1739821716866" duration="14000" />
-      <workItem from="1739821950218" duration="138000" />
-      <workItem from="1739822166275" duration="81000" />
-      <workItem from="1739822257283" duration="640000" />
-      <workItem from="1739868074794" duration="69000" />
-      <workItem from="1739888613166" duration="623000" />
-      <workItem from="1739892786962" duration="229000" />
-      <workItem from="1739901419769" duration="339000" />
-      <workItem from="1739901773268" duration="159000" />
+      <updated>1740214297336</updated>
+      <workItem from="1740214299322" duration="524000" />
+      <workItem from="1740214846541" duration="22000" />
+      <workItem from="1740214876309" duration="341000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

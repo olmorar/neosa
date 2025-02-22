@@ -35,12 +35,12 @@ export default async function page({ params }: { params: Promise<{ id: string; }
         <img className="w-full h-auto rounded-xl" src={image} alt="thumbnail" />
         <div className="space-y-5 mt-10 max-w-4xl mx-auth">
           <div className="flex-between gap-5">
-            <Link className="flex gap-2 items-center mb-3" href={`/startup/${author._id}`}>
-              <Image className="rounded-full drop-shadow-lg" src={author.image ?? ''} alt="avatar"
+            <Link className="flex gap-2 items-center mb-3" href={`/startup/${author?._id}`}>
+              <Image className="rounded-full drop-shadow-lg" src={author?.image ?? ''} alt="avatar"
                      width="64" height="64" />
               <div>
                 <p className="text-20-medium">{author?.name}</p>
-                <p className="text-16-medium !text-black-300">{author.username}</p>
+                <p className="text-16-medium !text-black-300">{author?.username}</p>
               </div>
             </Link>
             <p className="category-tag">{category}</p>
